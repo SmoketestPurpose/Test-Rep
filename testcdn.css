@@ -1,2 +1,15 @@
 :root {--primary: #0076c6;--secondary: ##00FF00;--error: #ce0606;--success: #009070;--white: #ffffff;}
 .secondarySabya {background: var(--secondary)!important;color: var(--white)!important;}
+.IDPcontainer #sfid-wrapper #sfid-content #sfid-username, .IDPcontainer #sfid-wrapper #sfid-content .sfid-username, .IDPcontainer #sfid-wrapper #sfid-content #sfid-password, .IDPcontainer #sfid-wrapper #sfid-content .sfid-password {
+    border-radius: 0.125rem;
+    background-color: white;
+    font-family: "GE Inspira Sans", Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 11rem!important;
+    border: 0.0625rem solid #a5a6a8;
+    min-height: 3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin: 0.0625rem;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
