@@ -3,11 +3,11 @@
 .IDPcontainer .sfid-button.sfid-wide.sfid-mb16{
 		font-family: "GE Inspira Sans",Arial,Helvetica Neue,Helvetica,sans-serif;
 		border-radius: 2.5rem;
-		border: 0.125rem solid #005eb8;
-		font-weight: bold;
-		font-size: 2.125rem;
-		letter-spacing: 1.5px;
-		text-transform: uppercase;
+		border: 0.125rem solid #005eb8!important;
+		font-weight: bold!important;
+		font-size: 2.125rem!important;
+		letter-spacing: 1.5px!important;
+		text-transform: uppercase!important;
 		height:50px;
 		background-color: #005eb8;
 		/*line-height: 3.25rem;*/
