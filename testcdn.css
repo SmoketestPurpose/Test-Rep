@@ -17,3 +17,11 @@
 		padding-right: 0.875rem;
 		-webkit-appearance: none;
 		}
+body {
+  background-color: lightblue;
+}
+
+h6 {
+  color: navy;
+  margin-left: 20px;
+}
