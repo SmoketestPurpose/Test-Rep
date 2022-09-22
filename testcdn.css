@@ -1,5 +1,21 @@
 :root {--primary: #0076c6;--secondary: ##00FF00;--error: #ce0606;--success: #009070;--white: #ffffff;}
-.secondarySabya {background: var(--secondary)!important;color: var(--white)!important;}
+.secondarySabya{
+		font-family: "GE Inspira Sans",Arial,Helvetica Neue,Helvetica,sans-serif;
+		border-radius: 2.5rem;
+		border: 0.125rem solid #005eb8!important;
+		font-weight: bold!important;
+		font-size: 222.125rem!important;
+		letter-spacing: 1.5px!important;
+		text-transform: uppercase!important;
+		height:50px;
+		background-color: #005eb8;
+		/*line-height: 3.25rem;*/
+		margin-top: 20px;
+		padding: 0px;
+		padding-left: 0.875rem;
+		padding-right: 0.875rem;
+		-webkit-appearance: none;
+}
 .IDPcontainer .sfid-button.sfid-wide.sfid-mb16{
 		font-family: "GE Inspira Sans",Arial,Helvetica Neue,Helvetica,sans-serif;
 		border-radius: 2.5rem;
