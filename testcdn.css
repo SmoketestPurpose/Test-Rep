@@ -1,15 +1,19 @@
 :root {--primary: #0076c6;--secondary: ##00FF00;--error: #ce0606;--success: #009070;--white: #ffffff;}
 .secondarySabya {background: var(--secondary)!important;color: var(--white)!important;}
-.IDPcontainer #sfid-wrapper #sfid-content #sfid-username, .IDPcontainer #sfid-wrapper #sfid-content .sfid-username, .IDPcontainer #sfid-wrapper #sfid-content #sfid-password, .IDPcontainer #sfid-wrapper #sfid-content .sfid-password {
-    border-radius: 0.125rem;
-    background-color: white;
-    font-family: "GE Inspira Sans", Arial,Helvetica Neue,Helvetica,sans-serif;
-    font-size: 11rem!important;
-    border: 0.0625rem solid #a5a6a8;
-    min-height: 3rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    margin: 0.0625rem;
-    margin-bottom: 10px;
-    padding-top: 15px;
-}
+.IDPcontainer .sfid-button.sfid-wide.sfid-mb16{
+		font-family: "GE Inspira Sans",Arial,Helvetica Neue,Helvetica,sans-serif;
+		border-radius: 2.5rem;
+		border: 0.125rem solid #005eb8;
+		font-weight: bold;
+		font-size: 2.125rem;
+		letter-spacing: 1.5px;
+		text-transform: uppercase;
+		height:50px;
+		background-color: #005eb8;
+		/*line-height: 3.25rem;*/
+		margin-top: 20px;
+		padding: 0px;
+		padding-left: 0.875rem;
+		padding-right: 0.875rem;
+		-webkit-appearance: none;
+		}
