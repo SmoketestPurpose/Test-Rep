@@ -1,2 +1,2 @@
-:root {--primary: #0076c6;--secondary: #333333;--error: #ce0606;--success: #009070;--white: #ffffff;}
+:root {--primary: #0076c6;--secondary: ##00FF00;--error: #ce0606;--success: #009070;--white: #ffffff;}
 .secondarySabya {background: var(--secondary)!important;color: var(--white)!important;}
