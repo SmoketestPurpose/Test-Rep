@@ -23,5 +23,21 @@ body {
 
 h6 {
   color: navy;
-  margin-left: 20px;
+  margin-left: 222px;
+}
+p {
+    display: block!important;
+    margin-block-start: 22em!important;
+    margin-block-end: 22em!important;
+    margin-inline-start: 0px!important;
+    margin-inline-end: 0px!important;
+}
+h6 {
+    display: block!important;
+    font-size: 0.67em!important;
+    margin-block-start: 2.33em!important;
+    margin-block-end: 2.33em!important;
+    margin-inline-start: 0px!important;
+    margin-inline-end: 0px!important;
+    font-weight: bold!important;
 }
