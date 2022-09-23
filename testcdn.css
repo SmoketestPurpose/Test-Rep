@@ -1,13 +1,202 @@
-:root {--primary: #0076c6;--secondary: #333333;--error: #ce0606;--success: #009070;--white: #ffffff;}
-.secondarySabya {background: var(--secondary)!important;color: var(--white)!important;}
-.IDPcontainer .sfid-button.sfid-wide.sfid-mb16{
+/*GE font-family*/
+@font-face {
+  font-family: "GE Inspira Sans";
+  font-weight: normal;
+  font-style: normal;
+  src:  url("./brand/type/GEInspiraSans-Regular-v01.woff2") format("woff2"),
+        url("./brand/type/GEInspiraSans-Regular-v01.woff") format("woff"),
+        url("./brand/type/GEInspiraSans-Regular-v01.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GE Inspira Sans";
+  font-weight: normal;
+  font-style: italic;
+  src:  url("./brand/type/GEInspiraSans-Italic-v01.woff2") format("woff2"),
+        url("./brand/type/GEInspiraSans-Italic-v01.woff") format("woff"),
+        url("./brand/type/GEInspiraSans-Italic-v01.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GE Inspira Sans";
+  font-weight: bold;
+  font-style: normal;
+  src:  url("./brand/type/GEInspiraSans-Bold-v01.woff2") format("woff2"),
+        url("./brand/type/GEInspiraSans-Bold-v01.woff") format("woff"),
+        url("./brand/type/GEInspiraSans-Bold-v01.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GE Inspira Sans";
+  font-weight: bold;
+  font-style: italic;
+  src:  url("./brand/type/GEInspiraSans-BoldItalic-v01.woff2") format("woff2"),
+        url("./brand/type/GEInspiraSans-BoldItalic-v01.woff") format("woff"),
+        url("./brand/type/GEInspiraSans-BoldItalic-v01.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GE Inspira Serif";
+  font-weight: normal;
+  font-style: normal;
+  src:  url("./brand/type/GEInspiraSerif-Regular-v01.woff2") format("woff2"),
+        url("./brand/type/GEInspiraSerif-Regular-v01.woff") format("woff"),
+        url("./brand/type/GEInspiraSerif-Regular-v01.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GE Inspira Serif";
+  font-weight: normal;
+  font-style: italic;
+  src:  url("./brand/type/GEInspiraSerif-Italic-v01.woff2") format("woff2"),
+        url("./brand/type/GEInspiraSerif-Italic-v01.woff") format("woff"),
+        url("./brand/type/GEInspiraSerif-Italic-v01.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GE Inspira Serif";
+  font-weight: bold;
+  font-style: normal;
+  src:  url("./brand/type/GEInspiraSerif-Bold-v01.woff2") format("woff2"),
+        url("./brand/type/GEInspiraSerif-Bold-v01.woff") format("woff"),
+        url("./brand/type/GEInspiraSerif-Bold-v01.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GE Inspira Serif";
+  font-weight: bold;
+  font-style: italic;
+  src:  url("./brand/type/GEInspiraSerif-BoldItalic-v01.woff2") format("woff2"),
+        url("./brand/type/GEInspiraSerif-BoldItalic-v01.woff") format("woff"),
+        url("./brand/type/GEInspiraSerif-BoldItalic-v01.otf") format("opentype");
+}
+
+/*Font Awesome*/
+@font-face{
+	font-family:'FontAwesome';
+	src:url("./brand/type/fontawesome/fontawesome-webfont.eot?v=4.4.0");
+	src:url("./brand/type/fontawesome/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"),
+		url("./brand/type/fontawesome/fontawesome-webfont.woff2?v=4.4.0") format("woff2"),
+		url("./brand/type/fontawesome/fontawesome-webfont.woff?v=4.4.0") format("woff"),
+		url("./brand/type/fontawesome/fontawesome-webfont.ttf?v=4.4.0") format("truetype"),
+		url("./brand/type/fontawesome/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
+	font-weight:normal;font-style:normal
+}
+
+.fa{
+	display:inline-block;font:normal normal normal 14px/1 FontAwesome;
+	font-size:inherit;text-rendering:auto;
+	-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale
+}
+.fa-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-15%}
+.fa-2x{font-size:2em}
+.fa-3x{font-size:3em}
+.fa-4x{font-size:4em}
+.fa-5x{font-size:5em}
+.fa-linkedin-square:before{content:"\f08c"}
+
+/*GE font-family*/
+    body {
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-attachment: fixed;
+         background-position: 0% 0%;
+         margin: 0px;       
+         line-height: 1.5em;
+         font-family: "GE Inspira Sans",Arial,Helvetica Neue,Helvetica,sans-serif;
+    }
+
+    .IDPcontainer .append {
+         font-family: "GE Inspira Sans",Arial,Helvetica Neue,Helvetica,sans-serif;
+        display: table-cell;
+		vertical-align: middle;    
+    }
+    .IDPcontainer .append h2, .IDPcontainer .append h3 {
+        color: #2f3313;
+        margin: 2px 0;
+		font-weight:normal;
+    }
+    .IDPcontainer #sfid-wrapper {
+         background: rgba(255, 255, 255, 0.85) none repeat scroll 0px 0px;
+         min-width: auto;
+         margin-top: 10px;
+         border-radius: 0px;
+         max-width: 350px;
+		 box-shadow: none;
+		 -webkit-box-shadow: none;
+    }
+
+    .IDPcontainer #sfid-wrapper #sfid-content {
+        padding-top: 25px;
+        overflow: hidden;
+		border: 0;
+		border-radius: 0px;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+    }
+    .IDPcontainer .input-container{
+        position: relative;
+    }
+    .IDPcontainer #sfid-wrapper #sfid-content #sfid-username,
+    .IDPcontainer #sfid-wrapper #sfid-content  .sfid-username,
+    .IDPcontainer #sfid-wrapper #sfid-content #sfid-password,
+    .IDPcontainer #sfid-wrapper #sfid-content .sfid-password {
+        border-radius: 0.125rem;
+		background-color: white;
+		font-family: "GE Inspira Sans", Arial,Helvetica Neue,Helvetica,sans-serif;
+		font-size: 1rem;
+		border: 0.0625rem solid #a5a6a8;
+		min-height: 3rem;
+		padding-right: 1rem;
+		padding-left: 1rem;
+		margin: 0.0625rem;
+		margin-bottom: 10px;
+		padding-top: 15px;
+    }
+	.IDPcontainer #sfid-wrapper #sfid-content #sfid-username:focus,
+    .IDPcontainer #sfid-wrapper #sfid-content  .sfid-username:focus,
+    .IDPcontainer #sfid-wrapper #sfid-content #sfid-password:focus,
+	.IDPcontainer #sfid-wrapper #sfid-content .sfid-password:focus{	
+		border-width: 0.125rem;
+		border-color: #005eb8;
+		outline-style: none;
+	}
+    .IDPcontainer .wrapper-icon-username::before {
+        content: "\f007";
+        font-family: "FontAwesome";
+        position: absolute;
+        right: 6%;
+        top: 12%;
+        color: #a5a6a8;
+    }
+    .IDPcontainer .wrapper-icon-password::before {
+        content: "\f023";
+        font-family: "FontAwesome";
+        position: absolute;
+        right: 6%;
+        top: 62%;
+        color: #a5a6a8;
+    }
+    .IDPcontainer .wrapper-icon-username, .IDPcontainer .wrapper-icon-password{
+        margin: 0px;
+    }
+    .IDPcontainer #sfid-content a.forgotPass{
+        float: right;
+        font-family: "GE Inspira Sans",Arial,Helvetica Neue,Helvetica,sans-serif;
+        margin-bottom: 15px;
+        font-size: 1rem;
+    }
+	.IDPcontainer #sfid-content a.forgotPass:hover{
+		text-decoration: underline;
+	}
+    .IDPcontainer .sfid-button.sfid-wide.sfid-mb16{
 		font-family: "GE Inspira Sans",Arial,Helvetica Neue,Helvetica,sans-serif;
-		border-radius: 2.5rem;
-		border: 0.125rem solid #005eb8!important;
-		font-weight: bold!important;
-		font-size: 2.125rem!important;
-		letter-spacing: 1.5px!important;
-		text-transform: uppercase!important;
+        border-radius: 2.5rem;
+		border: 0.125rem solid #005eb8;
+        font-weight: bold;
+        font-size: 1.125rem;
+		letter-spacing: 1.5px;
+		text-transform: uppercase;
 		height:50px;
 		background-color: #005eb8;
 		/*line-height: 3.25rem;*/
@@ -16,28 +205,263 @@
 		padding-left: 0.875rem;
 		padding-right: 0.875rem;
 		-webkit-appearance: none;
-		}
-body {
-  background-color: lightblue;
-}
+    }
+	.IDPcontainer .sfid-button.sfid-wide.sfid-mb16:hover{
+		background-color: #13294b;	
+		border: 0.125rem solid #13294b;		
+	}
+    .IDPcontainer .page-head {
+         width: 100%;
+    }
 
-h6 {
-  color: navy;
-  margin-left: 222px;
-}
-p {
-    display: block!important;
-    margin-block-start: 22em!important;
-    margin-block-end: 22em!important;
-    margin-inline-start: 0px!important;
-    margin-inline-end: 0px!important;
-}
-h6 {
-    display: block!important;
-    font-size: 0.67em!important;
-    margin-block-start: 2.33em!important;
-    margin-block-end: 2.33em!important;
-    margin-inline-start: 0px!important;
-    margin-inline-end: 0px!important;
-    font-weight: bold!important;
-}
+    .IDPcontainer .ge-footer {
+         overflow: hidden;
+         max-width: 350px;
+         margin: auto;
+         padding: 10px 0;
+    }
+    .IDPcontainer .ge-footer .footer-container ul{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    .IDPcontainer .ge-footer .footer-container .left-section img{
+         vertical-align: middle;
+    }
+    .IDPcontainer .ge-footer .footer-container ul li {
+		margin-bottom: 2px;
+		padding-right: 8px;
+		display: inline;
+    }
+
+    .IDPcontainer .ge-footer .footer-container ul li a {
+         color: #63666a;
+         font-size: 0.889rem;
+         font-family: "GE Inspira Sans",Arial,Helvetica Neue,Helvetica,sans-serif;
+         text-decoration: none;
+    }
+    /*.IDPcontainer .ge-footer .footer-container .bottom-links li:first-child{
+        border-right: 2px solid #333;
+    }*/	
+	.IDPcontainer .ge-footer .footer-container .bottom-links li{
+			white-space: nowrap;
+	}		
+	.IDPcontainer .ge-footer .footer-container .bottom-links li a{
+		color: #005eb8;
+		text-transform: uppercase;
+		padding: 0 7px;
+		outline: 0;
+		font-size: 0.79rem;
+	}
+	.IDPcontainer .ge-footer .footer-container .bottom-links li a:hover{
+		text-decoration: underline;
+		outline: 0;
+		color: #005eb8;
+		font-size: 0.79rem;
+	}
+    .IDPcontainer #sfid-links label, .IDPcontainer #sfid-links a{
+        font-family: "GE Inspira Sans",Arial,Helvetica Neue,Helvetica,sans-serif;
+        font-size: 1rem;
+		color: #000000;
+    }
+    .IDPcontainer .partition {
+        display: none;
+        padding-top: 16px;
+		padding-bottom :16px;
+        border-top: 1px solid #d7d8d8;
+    }
+	.IDPcontainer .partition p{
+		margin-top: -28px;
+		text-align: center;
+		background: #fff;
+		width: auto;
+		display: table;
+		padding : 0px 5px;
+		margin-bottom: 5px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 14px;
+		font-family: "GE Inspira Sans",Arial,Helvetica Neue,Helvetica,sans-serif;
+	}
+    .IDPcontainer .partition .emp-link{
+         font-family: "GE Inspira Sans",Arial,Helvetica Neue,Helvetica,sans-serif;
+		 border-radius: 2.5rem;
+		 border: 0.125rem solid #005eb8;
+		 font-weight: bold;
+         font-size: 1.125rem;
+		 letter-spacing: 1.5px;
+		 text-transform: uppercase;
+		 background-color: #005eb8;
+		 padding: 0px;
+		 padding-left: 0.875rem;
+		 padding-right: 0.875rem;
+		 -webkit-appearance: none;
+		 text-align: center;
+    }
+	.IDPcontainer .partition .emp-link:hover{
+        background-color: #13294b;  
+        border: 0.125rem solid #13294b;     
+    }
+    .IDPcontainer a{
+        text-decoration: none;
+		color: #005eb8;
+    }
+	.IDPcontainer .partition .linkedin-btn a, .IDPcontainer .partition .emp-link a{
+		color: #fff;
+		padding: 6px;
+		display: block;
+	}
+	.IDPcontainer .partition .fa{
+		vertical-align: middle;
+	}
+	.IDPcontainer .partition #employee-emp {
+		text-align: center;
+		font-family: "GE Inspira Sans",Arial,Helvetica Neue,Helvetica,sans-serif;
+        margin-bottom: 15px;
+        font-size: 16px;        
+	}
+	.IDPcontainer .partition .linkedin-btn{
+		font-family: "GE Inspira Sans",Arial,Helvetica Neue,Helvetica,sans-serif;
+		font-size: 14px;
+		text-align: center;
+		overflow: hidden;
+		margin-bottom: 16px;
+		border-radius: 2.5rem;
+		border: 2px solid #007bb5;
+		background-color: #007bb5;
+	}
+	.IDPcontainer .partition .linkedin-btn:hover{
+	    background-color: #005983;
+		border-color: #005983;
+	}
+    .IDPcontainer .partition .btn-inner {
+         padding-left:15px;
+         font-size: 12.636px;
+         font-weight: bold;
+         line-height: 26px;
+         position:relative;
+    }
+    .IDPcontainer #sfid-links {
+        margin-bottom: 0px;
+        float: left;
+    }
+    .IDPcontainer .logo-title{
+        margin: auto;
+        /*width: 250px;*/
+        display:table;
+        margin-top: 5%;
+    }
+    .IDPcontainer .logo-title .sfid-standard_logo{
+        width: 80px;
+        display: table-cell;
+    }
+    .IDPcontainer .custom-error{
+        color: red;
+        font-family: "GE Inspira Sans",Arial,Helvetica Neue,Helvetica,sans-serif;
+        font-size: 12px; 
+        display: none;
+    } 
+    /*.linkedIn:hover{
+        color: transparent !important;
+        transform:translate(0, -100%);        
+    }
+    .linkedIn:after{
+        content:attr(title);
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        
+        padding: 10px;
+        -ms-transform:translate(0, 100%);
+        transform:translate(0, 100%);
+        color:transparent;
+        transition:color 400ms cubic-bezier(0.25, 0.25, 0.75, 0.75) 200ms
+    }
+    .linkedIn:hover:after{
+        color: #0070d2;
+        transition-delay:200ms
+    }*/
+
+    @media screen and (max-width: 992px) {
+      .IDPcontainer #sfid-wrapper { 
+            background: rgba(255, 255, 255, 0.85) none repeat scroll 0px 0px; 
+            position: relative; 
+            left: auto; 
+            top: auto; 
+            width: 395px; 
+            margin-top: 10px;
+        }
+        .IDPcontainer .append{
+            position: relative;
+            margin-top: 10%;        
+        }
+          .IDPcontainer .page-head { 
+            position: relative; 
+            top: auto; 
+            left: auto; 
+        }       
+    }
+
+    @media screen and (max-width: 767px) {
+        .IDPcontainer .ge-footer .footer-container .left-section {
+            float: none;
+        }
+      .IDPcontainer #sfid-wrapper {
+        background: rgba(255, 255, 255, 0.85) none repeat scroll 0px 0px;
+        position: relative; 
+        left: auto; 
+        top: auto; 
+        width: 300px; 
+        }
+		.IDPcontainer .ge-footer {
+         max-width: 300px;
+		} 
+		/*.IDPcontainer .ge-footer .footer-container .bottom-links li{
+			white-space: normal;
+		} */
+    }
+	/*US4982 Start */
+	@media only screen and (min-width: 769px) {
+                .IDPcontainerDesktopOnly{
+                    margin-left: 20px !important;
+                    margin-top: 0px !important;
+                    display: inline-block !important;
+                }
+                .IDPcontainerDesktopOnly .sfid-standard_logo{
+                    width: 80px;
+                }
+                .IDPcontainer .logo-title{
+                    margin-top: 1% !important;
+                }
+                .IDPcontainerDesktopOnly h2, 
+                .IDPcontainer .logo-title .sfid-standard_logo, 
+                .IDPcontainer .logo-title h3{
+                    display: none ;
+                }
+                
+                .IDPcontainerDesktopOnly .append , 
+                .IDPcontainerDesktopOnly .sfid-standard_logo, 
+                .IDPcontainerDesktopOnly h3{
+                    display: inline-block !important;
+                    vertical-align: middle;
+                }
+                .IDPcontainerDesktopOnly .append{
+                    margin-top: 0 !important;
+                }
+            }
+            @media only screen and (max-width: 768px) {
+                .IDPcontainerDesktopOnly{
+                        display:none !important;
+                    }
+            }
+            @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+               
+                .IDPcontainerDesktopOnly{
+                    display:none !important;
+                }
+            }
+           
+            
+	/*US4982 End*/
+
