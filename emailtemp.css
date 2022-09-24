@@ -213,8 +213,7 @@ color: #00ADD8;
 font-weight: normal;
 text-decoration: underline;
 }
-
-.element .style {
+element.style {
     font-size: 18px;
     white-space: nowrap;
     line-height: 18px;
