@@ -213,17 +213,31 @@ color: #00ADD8;
 font-weight: normal;
 text-decoration: underline;
 }
+
 element.style {
-    font-size: 18px;
+    font-size: 18px !important;
     white-space: nowrap;
     line-height: 18px;
-    font-family: GE Inspira Sans;
+    font-family: GE Inspira Sans !important;
     color: #3d3d3d;
     display: block;
     font-weight: 400;
     padding-top: 0px;
     mso-margin-top-alt: 0px !important;
 }
+
+.div-brand {
+font-size: 18px !important;
+line-height:18px !important;
+white-space: nowrap !important;
+font-family: GE Inspira Sans !important;
+color: #3d3d3d !important;
+display:block !important;
+font-weight: 400 !important;
+padding-top:0px !important;
+mso-margin-top-alt: 0px !important;
+}
+
 
 #templateBody {
 background-color: #FFFFFF;
@@ -312,11 +326,11 @@ padding-top:0px !important;
 mso-margin-top-alt: 0px !important;
 }
 
-.element.style {
-    font-size: 18px;
+element.style {
+    font-size: 18px !important;
     white-space: nowrap;
     line-height: 18px;
-    font-family: GE Inspira Sans;
+    font-family: GE Inspira Sans !important;
     color: #3d3d3d;
     display: block;
     font-weight: 400;
