@@ -464,4 +464,78 @@
            
             
 	/*US4982 End*/
+	
+	       <!--US5635 Start-->
+                .inputText::-webkit-calendar-picker-indicator {
+                 display: none !important;
+                   }
+                 <!--US5635 End-->
+            <!--US5054 -->
+            .inputText {
+            padding-right: 2rem !important;
+                
+            }
+            .IDPcontainer .partition .emp-link:hover {
+                background-color: #13294b;
+                border: 0.125rem solid #13294b;
+            }
+
+            #employee-emp {
+                float: right;
+            }
+
+            .IDPcontainer .partition .btn-inner.btn-emp {
+                display: inline-block;
+                font-size: 1rem;
+                font-weight: normal;
+                color: #63666A;
+                padding-right: 5px;
+            }
+
+            .IDPcontainer #sfid-links label,
+            .IDPcontainer .partition p {
+                color: #63666A;
+            }
+
+            .sfid-button {
+                text-transform: uppercase;
+            }
+
+            @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+                .IDPcontainer .append {
+                    max-width: 195px !important;
+                }
+            }
+
+            .IDPcontainer .append {
+                max-width: 285px;
+            }
+
+            .IDPcontainer #sfid-links {
+                min-width: 50%;
+                float: left;
+                padding-bottom: 10px;
+            }
+
+            .IDPcontainer .forgotPassword {
+                min-width: 49%;
+                float: left;
+                margin-left: 1px;
+            }
+
+            input[type="checkbox"] {
+                margin-left: 0px !important;
+            }
+             <!-- Added for US4982 - start-->
+              @media only screen and (min-width: 769px) {
+                .IDPcontainer .append {
+                   text-align: center;
+                }
+         @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+                .IDPcontainer .append {
+                    max-width: 195px !important;
+                }
+                
+            }
+            }
 
