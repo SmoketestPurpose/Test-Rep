@@ -201,7 +201,7 @@ padding-bottom: 0;
 .headerContainer .mcnTextContent,
 .headerContainer .mcnTextContent p {
                     color: #808080;
-font-family: GE Inspira Sans !important;
+font-family: Arial !important;
                     font-size: 16px;
 line-height: 150%;
 text-align: left;
@@ -218,7 +218,7 @@ text-decoration: underline;
     font-size: 18px !important;
     white-space: nowrap;
     line-height: 18px;
-    font-family: GE Inspira Sans !important;
+    font-family: Arial !important;
     color: #3d3d3d;
     display: block;
     font-weight: 400;
@@ -254,7 +254,7 @@ padding-bottom: 0;
 .bodyContainer .mcnTextContent,
 .bodyContainer .mcnTextContent p {
 color: #222222; /*color updated for US5949*/
-font-family: GE Inspira Sans !important; /*Updated for US6004*/
+font-family: Arial !important; /*Updated for US6004*/
                     font-size: 16px;
 line-height: 150%;
 text-align: left;
@@ -306,7 +306,7 @@ text-align: center;
 font-size: 18px !important;
 line-height:18px !important;
 white-space: nowrap !important;
-font-family: GE Inspira Sans !important;
+font-family: Arial !important;
 color: #3d3d3d !important;
 display:block !important;
 font-weight: 400 !important;
@@ -318,7 +318,7 @@ element.style {
     font-size: 18px !important;
     white-space: nowrap;
     line-height: 18px;
-    font-family: GE Inspira Sans !important;
+    font-family: Arial !important;
     color: #3d3d3d;
     display: block;
     font-weight: 400;
