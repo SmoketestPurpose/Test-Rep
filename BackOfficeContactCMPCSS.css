@@ -1,0 +1,224 @@
+.THIS .slds-page-header{
+    padding: 0rem !important;
+}
+.THIS.slds-spinner_container, .THIS .slds-spinner_container{
+    position: fixed !important;
+}
+.THIS .slds-modal__container .slds-modal__content{
+	border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.THIS .slds-page-header__title {font-size: 1.125rem !important;color: #2f3133;font-weight: normal !important;}
+/*.THIS .mainContent{border: 1px solid rgb(221, 219, 218);box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);border-radius: .25rem;}*/
+.THIS .list-group {word-break: break-all;max-height: 250px;overflow-y: auto;z-index: 999;display: none; 
+    position: absolute; 
+    border: 1px solid rgb(221, 219, 218) !important;
+    width: -webkit-fill-available;
+}
+.THIS .slds-box{border:0!important; border-bottom: 1px solid rgb(221, 219, 218)!important;}
+.THIS .create-case-element1{width: 120px;}
+.THIS .case-create-table tr td.notice-text {
+    font-size: 13px;
+    color: #63666a;
+    padding-bottom: 0px;
+}
+.THIS .greyIcon svg{
+    fill:#aaaaaa !important;
+}
+.THIS .contactSearch .uiInput--input.input {padding-right: 1.6rem !important;}
+.THIS .LookupIcon{
+    position: relative;
+    float: right;
+    top: 25px;
+    right: 12px;
+    padding-left: 2px;
+}
+/*Added (a class) for US4454*/
+.THIS fieldset.actionBtnFieldset {
+    /*display: none ;*/
+    width: fit-content;
+    border: 1px solid #aaaaaa;    
+    margin-right: 2px;
+    /*padding-top: 0.35em;*/
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+.THIS .actionBtnFieldset {display: none;}
+
+.THIS legend {
+	text-align: left;
+    padding-bottom: 0.35em;
+    /* Added for US4454 */
+    padding-left:0.35rem;
+}
+.THIS .actnBtn{margin-top: 5px;}
+.THIS .slds-button_brand {padding-left: 0.2rem !important;padding-right: 0.2rem !important;margin-right: 0.25rem;}
+.THIS .slds-button+.slds-button {margin-left: 0rem !important;}
+.THIS .accountNameLink{color: rgb(0, 109, 204) !important;}
+.THIS .accountNameLink .slds-form-element__static {color: #005FB2 !important;}
+@media (min-width: 767px){ 
+    .THIS .actionBtnPanel{text-align:right;}
+    /* Added for US4454 */
+    .THIS fieldset.actionBtnFieldset{margin-left: 20px;float: right;}    
+    /*Custom scrollbar*/
+    .THIS .list-group::-webkit-scrollbar-track
+    {
+        border-radius: 5px;
+        background-color: rgb(241, 241, 241);
+        border-left:1px solid rgb(221, 219, 218) !important; 
+        border-right:1px solid rgb(221, 219, 218) !important;
+    }
+    .THIS .list-group::-webkit-scrollbar
+    {
+        width: 10px;
+        background-color: rgb(241, 241, 241);
+        border-left:1px solid rgb(221, 219, 218) !important;
+        border-right:1px solid rgb(221, 219, 218) !important;
+    }
+    .THIS .list-group::-webkit-scrollbar-thumb
+    {
+        border-radius: 5px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #a8a8a8;
+    }
+    .THIS .secondDivCls {padding-right: 1rem !important;} /*For Edit Contact Section*/
+	.THIS .slds-table_bordered tbody td{
+        max-width: 300px !important;
+    }
+}
+@media (max-width: 766px){
+    .THIS .actionBtnPanel{padding-top:20px;}
+    /* Added for US4454 */
+    .THIS fieldset.actionBtnFieldset{margin-top: 10px;}
+    .THIS .responsiveTable{
+        padding: 0.25rem !important;
+    }
+    /*For Edit Contact App Role Section */
+    .THIS .editContactAppRoleTable .slds-table_cell-buffer tr>td:first-child {max-width: 120px !important;padding-left: 0rem !important;}
+    .THIS .appName{white-space: normal !important;}
+    .THIS .editContactAppRoleTable .slds-table td, .THIS .editContactAppRoleTable .slds-table_cell-buffer tr>th:first-child {max-width: 120px !important;}
+	.THIS .slds-table_bordered tbody td{
+        max-width: 125px !important;
+    }
+}
+/* Added for US4454 */
+@media (min-width: 883px){.THIS fieldset.actionBtnFieldset {margin-top: -26px;}}
+/*Contact Sections Below */
+.THIS div{
+          
+}
+.THIS .customLabelStyle{
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    min-height: calc(1.875rem + 2px);
+    font-size: .875rem; 
+    font-weight: bold;
+}
+.THIS lightning-output-field.customHyperlink.slds-form-element lightning-formatted-name.slds-form-element__static{
+	
+    color:#005fb2;
+}
+
+.THIS .customWordBreak{
+    word-break: break-all;
+}
+
+.THIS .customSectionTitleBackground{
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 106, 141);
+}
+
+.THIS .slds-checkbox_faux:after{
+    border-color: #1B5297 !important;
+}
+/*For Edit Contact section*/
+.THIS .rowSection {padding-bottom: 1rem;}
+.THIS .secondDivCls .slds-form-element__label{display: none !important;}
+.THIS .submitActionPanel{text-align: center;}
+.THIS .submitActionPanel .slds-button_brand{padding-left: 2rem!important;padding-right: 2rem!important;margin-right: 1.25rem !important;}
+.THIS .reqdField {color: red;margin-left: 2px;}
+
+/*For New Contact Section*/
+.THIS .hideFieldFromNewContactSection{display: none;}
+.THIS .hideCountryPicklistLabel .slds-form-element__label{display: none !important;}  /*Updated for US4851*/
+.THIS .customRequired:after{content: "*";color: rgb(194, 57, 52);}
+.THIS .checkClass input[type=checkbox][disabled]:unchecked{
+    background-color: rgb(21, 137, 238)!important;
+    border-color: #a8b7c7!important;}
+.THIS .checkClass input[type=checkbox][disabled]:checked{
+   /*background-color: rgb(236, 235, 234) !important;*/
+    background-color: cornflowerblue !important;
+    border-color: rgb(201, 199, 197)!important;}
+	
+.THIS .modalMsg{font-size:20px; font-weight:bold;
+color:green;}
+/*For removing arrow from phone field-start*/
+/* For Firefox browser */
+.THIS input[type='number'] {  
+   -moz-appearance:textfield;
+}
+/* For webkit browsers like Chrome and Safari */
+.THIS input[type=number]::-webkit-inner-spin-button,
+.THIS input[type=number]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+/*For removing arrow from phone field-end*/
+.THIS helpText{text-align:"right";
+background-color: rgb(78, 106, 141)!important;
+fill:white;
+width:50%;
+}
+.THIS .slds-icon-standard-info {
+    background-color:rgb(78, 106, 141);
+}
+.THIS helpText1{text-align:"right";
+background-color: rgba(0, 68, 135, 1.0)!important;
+fill:white;
+width:50%;
+}
+.THIS .helpTextPos{position:absolute;
+right:2%;}
+@media (max-width: 1024px) and (min-width: 768px){.THIS .helpTextPos {right:4%;}}
+.THIS .helpTextPos1{position:absolute;
+right:1%;}
+.THIS [class*=slds-icon-action-] {
+    padding: 0.35rem!important;
+}
+.THIS .modal-body{padding:1.5rem !important;}
+.THIS .modal-footer{padding-top:0.35rem !important;
+padding-bottom:0.35rem !important;}
+.THIS .modal-Container{max-width:25rem !important;}
+@media (min-width: 1025px){
+.THIS .helpTextButtonPanel{
+	position: absolute;
+    right: 0.25%;
+    margin-top: 0.4rem;}
+.THIS .slds-icon-text-default{fill:rgba(27, 82, 151, 1.0);}
+}
+@media (max-width: 1024px){
+.THIS .helpTextButtonPanel{
+        display:none;}}
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .THIS .helpTextButtonPanel{
+        display:none;}
+}
+/*US5029*/
+.THIS .FieldCheck{
+    color:red !important; 
+}
+.THIS .slds-dropdown-trigger_click .slds-dropdown{z-index:50!important;}
+.THIS .slds-input-has-icon .slds-input__icon:not(button){display:none!important;}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .THIS .helpTextPos{margin-top:-1.1%!important}
+}
+/*US5475*/
+.THIS .labelfixed{
+    white-space:nowrap;
+    overflow:hidden;
+  }
